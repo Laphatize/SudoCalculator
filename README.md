@@ -1,5 +1,4 @@
 
-![Version Image](http://i.cubeupload.com/sT0nBX.gif) <br>
 
 This calculator contains the following:
 * Themes that save, meaning next time you come your desired preference will remain.
