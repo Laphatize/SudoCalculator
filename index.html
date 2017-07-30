@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SudoCalc</title>
+  <link href="css/style.css" rel="stylesheet">
+  <title>SudoCalc</title>
+</head>
+<body>
+  <div>
+    <center>
+      <h1>SudoCalc (v.2)</h1>Created by Laphatize.<br>
+      If you see no buttons, just try changing the color. :) <br>
+      <br>
+    </center>
+  </div>
+  <div class="box">
+    <div class="display">
+      <input id="d" readonly size="15.75" type="text">
+    </div>
+    <div class="keys">
+      <p><input class="button" onclick='back()' type="button" value="Del"> <input class="button" onclick='math("(")' type="button" value="("> <input class="button" onclick='math(")")' type="button" value=")"> <input class="button" onclick='math("/")' type="button" value="/"></p>
+      <p><input class="button" onclick='math("7")' type="button" value="7"> <input class="button" onclick='math("8")' type="button" value="8"> <input class="button" onclick='math("9")' type="button" value="9"> <input class="button" onclick='math("*")' type="button" value="x"></p>
+      <p><input class="button" onclick='math("4")' type="button" value="4"> <input class="button" onclick='math("5")' type="button" value="5"> <input class="button" onclick='math("6")' type="button" value="6"> <input class="button" onclick='math("-")' type="button" value="-"></p>
+      <p><input class="button" onclick='math("1")' type="button" value="1"> <input class="button" onclick='math("2")' type="button" value="2"> <input class="button" onclick='math("3")' type="button" value="3"> <input class="button" onclick='math("+")' type="button" value="+"></p>
+      <p><input class="button" onclick='math("0")' type="button" value="0"> <input class="button" onclick='math(".")' type="button" value="."> <input class="button" onclick='c("")' type="button" value="C"> <input class="button" onclick='e()' type="button" value="="><br>
+      <input class="button" onclick='memoryRecall()' type="button" value="MRC"> <input class="button" onclick='memoryAdd()' type="button" value="M+"> <input class="button" onclick='memoryDelete()' type="button" value="M-"></p>
+    </div>
+  </div>
+  <div class="options">
+    <select id="ddlTheme" onchange="background(value)">
+      <option value="Gray">
+        Select Color
+      </option>
+      <option value="lightblue">
+        Light Blue
+      </option>
+      <option value="lightgreen">
+        Light Green
+      </option>
+      <option value="tomato">
+        Tomato Red
+      </option>
+      <option value="wheat">
+        Wheat Color
+      </option>
+      <option value="salmon">
+        Salmon Red
+      </option>
+    </select>
+  </div>
+  <script src="js/index.js">
+  </script>
+</body>
+</html>

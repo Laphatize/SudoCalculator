@@ -1,0 +1,69 @@
+.options {
+  
+  text-align: center;
+  
+}
+
+head
+
+
+
+.display {
+            background-color: yellowgreen;
+            border: none;
+            margin: 0 ;
+            text-align: center 
+
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+
+
+        .keys {
+            /* Green */
+            border: none;
+text-align: center 
+            padding: 15px 32px;
+
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+   
+    
+        }
+
+
+        .button {
+            /* Green */
+            background-color: Transparent;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+          
+        }
+
+
+        .box  {
+          
+          text-align: center 
+}
+
+      
+  p1 , p2 , h1 {
+    font-family: "Sans-serif", Sans-serif;
+}
+
+value {
+
+ 
+    font-weight: 900;
+
+}
+
+
