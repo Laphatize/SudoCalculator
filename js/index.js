@@ -1,4 +1,8 @@
+
+/* © Laphatize 2017-2018 */
+
 var cookieString = document.cookie;
+var val; 
 
 function c(val) {
     document.getElementById("d").value = val;
@@ -60,9 +64,7 @@ function eraseCookie(name) {
     createCookie(name, "", -1);
 }
 
-function openWin() {
-    myWindow = window.open("https://codepen.io/laphatize/pen/jLNwKZ", "", "width=400, height=594");
-};
+
 var storage;
 
 function memoryAdd() {
@@ -79,3 +81,27 @@ function memoryRecall() {
     console.log(storage)
     c(document.getElementById("d").value + storage)
 }
+
+/* Audit Log */ 
+
+var AuditLog = [
+                   
+
+               ];
+
+function auditThis() {
+AuditLog.push(document.getElementById("d").value)
+//AuditLog.push(d)  
+console.log(AuditLog);
+}
+
+function viewAuditLog() {
+
+document.getElementById("audit").innerHTML = (AuditLog)
+
+}
+
+if (document.body.style.backgroundColor = "white") {
+document.body.style.backgroundColor = "gray";
+};
+
